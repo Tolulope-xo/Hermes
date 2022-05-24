@@ -1,0 +1,35 @@
+@font-face {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+    font-family: 'Ubuntu', sans-serif;
+}
+
+@font-face {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+    font-family: 'Poppins1', sans-serif;
+}
+
+@font-face {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    font-family: 'Poppins2', sans-serif;
+}
+@font-face {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+font-family: 'Poppins3', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "./nav";
+@import "./hero";
+@import "./box_rectangle";
+@import "./container";
+@import "./container3";
+@import "./footer";

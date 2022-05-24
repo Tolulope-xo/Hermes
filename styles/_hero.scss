@@ -1,0 +1,113 @@
+.hero {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    height: 38rem;
+    align-items: center;
+
+    .hero1 {
+        width: 30rem;
+
+        h2 {
+            font-size: 61px;
+            font-family: 'Ubuntu';
+            color: #004761;
+            line-height: 60px;
+            padding-bottom: 1rem;
+        }
+
+        p {
+            padding-bottom: 1rem;
+            font-size: 20px;
+            font-family: 'Poppins2';
+            color: #304E59;
+            line-height: 30px;
+            padding-bottom: 2rem;
+        }
+
+        .buttons {
+            display: inline-flex;
+            gap: 1rem;
+
+            .btn {
+                color: white;
+                width: 8rem;
+                background-color: #FF6E6C;
+                border: 1px solid transparent;
+                height: 3rem;
+                font-family: 'Poppins';
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .btn1 {
+                width: 3rem;
+                border: 1px solid #FF6E6C;
+                background-color: white;
+                height: 3rem;
+            }
+        }
+    }
+
+    .hero2 {
+        position: relative;
+
+        .ellipse {
+            position: absolute;
+            width: 20rem;
+            height: 20rem;
+            top: -80%;
+            left: 90%;
+            transform: translate(90%, -80%);
+        }
+
+        .man {
+            position: absolute;
+            width: 30rem;
+            height: 35rem;
+            top: -40%;
+            left: 35%;
+            transform: translate(35%, -40%);
+            border-bottom: 2px solid rgba(0, 71, 97, 1);
+        }
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .hero {
+        position: relative;
+        display: block;
+        width: 20rem;
+        margin-top: 6rem;
+        height: 700px;
+        .hero1 {
+            margin: auto;
+            text-align: center;
+            width: 20rem !important;
+
+            h2 {
+                font-size: 40px;
+                font-weight: 700;
+            }
+        }
+
+        .hero2 {
+
+            .ellipse {
+                display: none;
+            }
+
+            .man {
+                margin: auto;
+                padding-top: 2rem;
+                width: fit-content;
+                height: 25rem;
+                position: absolute;
+                top: 0rem;
+                left: 0rem;
+                transform: translate(0rem, 0rem);
+            }
+        }
+    }
+
+}
